@@ -1,2 +1,15 @@
 # Maze Puzzle Game
 A simple game where player move an object through a maze to reach the target. Made using Haskell and Gloss package.
+# Running the game
+## Installing the Haskell toolchain
+To install the Haskell toolchain follow the [ghcup instructions](https://www.haskell.org/ghcup/).
+## Clone this repository
+```bash
+git clone https://gitlab.cs.ui.ac.id/fungsional/functional-project.git
+```
+## Launch the game
+```bash
+cd functional-project
+cabal run
+```
+Have fun!
