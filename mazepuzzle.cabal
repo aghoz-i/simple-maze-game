@@ -27,12 +27,15 @@ executable mazepuzzle
     main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
-    -- other-modules:
+    other-modules:
+        MazeDrawer,
+        MazeGenerator
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:    
         base ^>=4.16.4.0,
-        gloss ==1.13.2.2
+        gloss ==1.13.2.2,
+        random==1.2.1.1
     hs-source-dirs:   app
     default-language: Haskell2010
