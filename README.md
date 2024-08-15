@@ -9,7 +9,7 @@ git clone https://github.com/aghoz-i/simple-maze-game.git
 ```
 ## Launch the game
 ```bash
-cd functional-project
+cd simple-maze-game
 cabal run
 ```
 Have fun!
